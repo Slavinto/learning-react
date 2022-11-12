@@ -1,3 +1,5 @@
+import ToggleDescription from "../toggle-description-button/toggle-description-button.component.jsx";
+
 const Description = ({ imageIndex, galleryDataArray }) => {
   const currentImageInfo = galleryDataArray[imageIndex];
   const { name, artist, description, url, alt } = currentImageInfo;
@@ -6,7 +8,9 @@ const Description = ({ imageIndex, galleryDataArray }) => {
   };
   return (
     <div>
-      <h1 style={textStyle}>{name}</h1>
+      <h1 style={textStyle}>
+        {name} by {artist}
+      </h1>
       <div>
         ({imageIndex + 1} of {galleryDataArray.length})
       </div>
@@ -19,7 +23,7 @@ const Description = ({ imageIndex, galleryDataArray }) => {
           border: "1px solid black",
         }}
       />
-      <div style={{ width: "600px" }}>{description}</div>
+      <ToggleDescription description={description} />
     </div>
   );
 };
