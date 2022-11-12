@@ -1,14 +1,14 @@
 // now learning:
 // https://beta.reactjs.org/learn/adding-interactivity
 // https://beta.reactjs.org/learn/thinking-in-react
-// https://beta.reactjs.org/learn/responding-to-events
+// https://beta.reactjs.org/learn/state-a-components-memory
 
 import logo from "./logo.svg";
 import "./App.css";
-import Toolbar from "./components/toolbar/toolbar.component.jsx";
+import Gallery from "./components/gallery/gallery.component.jsx";
 
 function App() {
-  return <Toolbar />;
+  return <Gallery />;
 }
 
 export default App;
