@@ -28,23 +28,3 @@ const NavigationButton = ({ imageIndex, setImageIndex, lastIndex }) => {
 };
 
 export default NavigationButton;
-
-//   const btnPrev = imageIndex ? (
-//     <NavigationButton imageIndex={imageIndex} setImageIndex={setImageIndex}>
-//       Prev
-//     </NavigationButton>
-//   ) : (
-//     ""
-//   );
-
-//   const navBtnArr = [].push(btnPrev);
-//   const btnNext =
-//     imageIndex < sculptureList.length ? (
-//       <NavigationButton imageIndex={imageIndex} setImageIndex={setImageIndex}>
-//         Next
-//       </NavigationButton>
-//     ) : (
-//       ""
-//     );
-
-//   navBtnArr.push(btnNext);

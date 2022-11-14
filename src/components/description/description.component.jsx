@@ -8,9 +8,9 @@ const Description = ({ imageIndex, galleryDataArray }) => {
   };
   return (
     <div>
-      <h1 style={textStyle}>
+      <h2 style={textStyle}>
         {name} by {artist}
-      </h1>
+      </h2>
       <div>
         ({imageIndex + 1} of {galleryDataArray.length})
       </div>
