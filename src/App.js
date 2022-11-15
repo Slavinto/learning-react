@@ -1,7 +1,7 @@
 // now learning:
 // https://beta.reactjs.org/learn/adding-interactivity
 // https://beta.reactjs.org/learn/thinking-in-react
-// https://beta.reactjs.org/learn/updating-objects-in-state
+// https://beta.reactjs.org/learn/managing-state
 
 import logo from "./logo.svg";
 import "./App.css";
