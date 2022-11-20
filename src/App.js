@@ -7,9 +7,17 @@
 // V https://beta.reactjs.org/learn/passing-props-to-a-component
 // V https://beta.reactjs.org/learn/conditional-rendering
 // V https://beta.reactjs.org/learn/rendering-lists
-// ?? https://beta.reactjs.org/learn/extracting-state-logic-into-a-reducer
-// https://beta.reactjs.org/learn/adding-interactivity
-// https://beta.reactjs.org/learn/managing-state
+// V https://beta.reactjs.org/learn/keeping-components-pure
+// V https://beta.reactjs.org/learn/responding-to-events
+// V https://beta.reactjs.org/learn/state-a-components-memory
+// V https://beta.reactjs.org/learn/render-and-commit
+// V https://beta.reactjs.org/learn/state-as-a-snapshot
+// V https://beta.reactjs.org/learn/queueing-a-series-of-state-updates
+// V https://beta.reactjs.org/learn/updating-objects-in-state
+// V https://beta.reactjs.org/learn/updating-arrays-in-state
+// V https://beta.reactjs.org/learn/managing-state
+// V https://beta.reactjs.org/learn/reacting-to-input-with-state
+// V https://beta.reactjs.org/learn/choosing-the-state-structure
 // https://beta.reactjs.org/learn/passing-data-deeply-with-context
 
 import logo from "./logo.svg";
